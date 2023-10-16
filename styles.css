@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #053B50;
+}
+.keyframe{
+    background-color: rgb(5, 5, 5);
+    height: 500px;
+    width: 900px;
+    padding-bottom: 25px;
+    border-radius: 7px;
+}
+
+.topPart{
+    display: inline-block;
+    align-self: flex-start;
+    height: 200px;
+    width: 900px;
+}
+
+header{
+    display: flex;
+    margin: auto;
+    font-size: 50px;
+    font-weight: 600px;
+    font-family: 'Alex Brush', cursive;
+    color: white;
+    justify-content: center;
+    padding: 40px;
+}
+
+
+.downPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.keyboard{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 300px;
+}
+
+
+.whitekey{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 72px;
+    height: 300px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.keyname{
+    display: flex;
+    color: grey;
+    font-size: 20px;
+}
+
+.blackkey{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 40px;
+    height: 200px;
+    background-color: black;
+    border-radius: 0px 0px 8px 8px;
+    margin: 0px -20px 0px -20px;
+    z-index: 1;
+}
+
+.keyAnimation{
+    background-color: rgb(100, 100, 100);
+}
+
+footer{
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
