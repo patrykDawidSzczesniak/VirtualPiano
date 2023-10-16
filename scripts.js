@@ -5,11 +5,19 @@ $(document).ready(function () {
     function checkType(event)
     {
         if (event.type === 'click'){
-            animationId(event.target.id);
+            animation(event.target.id);
             playSound(event.target.id);
+            if (event.key === ';'){
+                animation('semiColon');
+                playSound('semiColon');
+            }
         }
         if (event.type === 'keydown'){
-            animationId(event.key);
+            if (event.key === ';'){
+                animation('semiColon');
+                playSound('semiColon');
+            }
+            animation(event.key);
             playSound(event.key);
         }
     };
@@ -19,11 +27,12 @@ $(document).ready(function () {
         audio.play();
     }
 
-    function animationId(input){
+    function animation(input){
         $("#" + input).addClass("keyAnimation");
         setTimeout(function(){
             $("#" + input).removeClass("keyAnimation")
         }, 100);
+        console.log(input);
     }
 });
 
