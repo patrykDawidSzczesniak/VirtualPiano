@@ -1,5 +1,6 @@
 # VirtualPiano
 Hello. this is my small project that I made in order of killing the boredom of working alone in the office :)
+https://patrykdawidszczesniak.github.io/VirtualPiano/
 
 Right now it's very simple, though I'm planning on adding certain updates in nearest future.
 
