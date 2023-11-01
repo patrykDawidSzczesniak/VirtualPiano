@@ -4,7 +4,7 @@ https://patrykdawidszczesniak.github.io/VirtualPiano/
 
 Right now it's very simple, though I'm planning on adding certain updates in nearest future.
 
-List of updates:
+List of future updates:
 - Adding more instruments,
 - Adding higher/lower sound mode,
 - Adding turn off/on option for key names,
